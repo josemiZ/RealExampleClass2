@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:background="@color/colorPrimary">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <EditText
+                style="@style/CustomEditText"
+                android:hint="@string/name"
+                android:layout_marginTop="20dp"
+                android:id="@+id/name"
+                />
+            <EditText
+                style="@style/CustomEditText"
+                android:layout_marginTop="20dp"
+                android:hint="@string/last_name"
+                android:id="@+id/last_name"
+                />
+
+            <EditText
+                style="@style/CustomEditText"
+                android:layout_marginTop="20dp"
+                android:hint="@string/gender"
+                android:id="@+id/gender"
+                />
+
+            <EditText
+                style="@style/CustomEditText"
+                android:hint="@string/email"
+                android:id="@+id/et_email"
+                android:layout_marginTop="20dp"
+                android:inputType="textEmailAddress"
+                />
+            <EditText
+                style="@style/CustomEditText"
+                android:hint="@string/password"
+                android:id="@+id/et_password"
+                android:inputType="textPassword"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btn_login"
+                android:text="@string/register"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

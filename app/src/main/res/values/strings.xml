@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RealmBasicLoginRegister</string>
+
+    //Login
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register_here">Obtén tu cuenta</string>
+
+    //Register
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="gender">Sexo</string>
+    <string name="register">Registrar</string>
+</resources>
